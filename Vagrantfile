@@ -75,9 +75,7 @@ Vagrant.configure("2") do |config|
   #pip install django
   #pip install django==1.5
   #sudo apt-get -y install python  
-  #git clone https://github.com/edsonbenites/devops-sample-vestibulares.git /var/www/devops-sample-vestibulares
-  #git clone https://github.com/edsonbenites/html-docs-hello-world.git /var/www/html-docs-hello-world
-  #git clone https://github.com/edsonbenites/devops-aula13.git /var/www/devops-aula13
+
   rm -rf /var/www/introducao-html-css
   git clone https://github.com/walteroliveira95/introducao-html-css.git /var/www/introducao-html-css
   git clone https://github.com/walteroliveira95/Apache2-vagrant.git /etc/apache2/sites-enable
